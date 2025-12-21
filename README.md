@@ -38,3 +38,28 @@ To use the train function, the data should be provided via a DataLoader that yie
 
 ## Citation
 If you use the MVCLDG model in your research, please cite the following paper:
+
+```text
+@article{mvcldg2025,
+  title={Cross-Subject ERP Classification via Multi-View Based Contrastive Learning},
+  author={Chaochen Chen,Lugui Xia,Jie Zhuang,Qian Qian,HongFei Ji and Jie Li},
+  journal={[Journal Name]},
+  volume={[volume]},
+  number={[number]},
+  pages={[pages]},
+  year={2025},
+  publisher={[Publisher]}
+}
+```
+If the paper is not yet published, cite this repository:
+
+```text
+@software{mvcldg_code_2025,
+  title = {MVCLDG: Multi-View Contrastive Learning Domain Generalization for EEG},
+  author = {[]},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/ExtenChen3/MVCLDG}}
+}
+```
