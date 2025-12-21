@@ -37,21 +37,7 @@ Parameter num_domains specifies the number of source domains for domain generali
 To use the train function, the data should be provided via a DataLoader that yields batches of EEG data and corresponding labels. The EEGDatasetWithHT class handles loading and preprocessing of EEG data, including optional Hilbert Transform computation for the phase view. The domain_labels are used to identify which domain each sample belongs to, which is essential for computing the domain alignment loss.
 
 ## Citation
-If you use the MVCLDG model in your research, please cite the following paper:
-
-```text
-@article{mvcldg2025,
-  title={Cross-Subject ERP Classification via Multi-View Based Contrastive Learning},
-  author={Chaochen Chen,Lugui Xia,Jie Zhuang,Qian Qian,HongFei Ji and Jie Li},
-  journal={[Journal Name]},
-  volume={[volume]},
-  number={[number]},
-  pages={[pages]},
-  year={2025},
-  publisher={[Publisher]}
-}
-```
-If the paper is not yet published, cite this repository:
+If you use the MVCLDG model in your research, please cite this repository:
 
 ```text
 @software{mvcldg_code_2025,
